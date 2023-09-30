@@ -1,0 +1,366 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+
+/*--Header*/
+
+header{
+    background-color: rgb(180, 114, 241);
+    
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+   height: 40px;
+   
+    
+}
+
+.logo{
+    justify-content: flex-start;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    margin-left: 50px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    
+   
+}
+ul li{
+    list-style:none ;
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: large;
+    align-items: center;
+    
+    color: white; 
+  
+}
+
+
+
+.image p{
+    font-weight: 900;
+    font-weight: bolder;
+   padding: 20px;
+   font-size: 4rem;
+   
+    color: rgb(131, 56, 201);
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: solid;
+          
+}
+
+.image{
+
+        
+        background-image: url(bg.jpj.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 700px;
+        width: 100%;
+}
+
+
+
+
+
+h1{
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+  
+  
+    font-family: 'Times New Roman', Times, serif;
+}   
+
+
+.bg{
+    max-height: 600px;
+    max-width: 100%;
+    background-color: blueviolet;
+}
+nav ul a:hover{
+                background-color: white;
+                color: black;
+}
+
+h1{
+    text-align: center;
+    
+    color: rgb(37, 202, 37);
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+    
+
+
+}
+
+/*--Header*/
+
+
+
+
+
+/*--About*/
+
+
+
+.about{
+        height: 500px;
+        width: 100%;
+        background-color: bisque;
+        display: flex;
+}
+.about-picture{
+       height: 500px;
+       width: 100%;
+       flex-basis: 60%;
+
+}
+.about-text{
+            height: 500px;
+            flex-basis: 40%;
+            width: 100%;
+            background-color: rgb(144, 100, 185);
+            color: white;
+            
+
+}
+.about-text p{
+                margin: 20px;
+}
+.paragraph{
+           max-height: 500px;
+           max-width: 100;
+           background-color: rgb(211, 47, 211);
+}
+.p2{
+    margin: 30px;
+    position: static;
+    
+}
+
+
+/*--About*/
+
+/*.flex-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+}
+
+
+.card{
+    
+        height: 350px;
+        width: 300px;
+        margin: 10px;
+        box-shadow:  rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;;
+        border-radius: 15px;
+    
+    }
+
+
+.card-image{
+            margin: 20px;
+           
+       
+}
+h3{
+    margin: 20px;
+    text-align: center;
+}
+
+button{
+    margin-left: 95px;
+    margin-top:  0px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(78, 129, 240);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}*/
+
+
+
+/*--Foodlist*/
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:white;
+    
+}
+.flex-item{
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    
+   
+}
+
+.card{
+    height: 300px;
+    width: 270px;
+    box-shadow:  rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;;
+}
+.card img{
+            margin: 15px;
+}
+
+.card-body{
+    text-align: center;
+    
+}
+
+
+/*--Foodlist*/
+
+
+/*--Button*/
+button{
+    margin-top: 5px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(37, 202, 37);
+    color: white;
+    
+
+}
+button a{
+        text-decoration: none;
+        color: white;
+}
+button:hover{
+                color: white;
+                background-color: rgb(14, 120, 219);
+}
+
+
+/*--Button*/
+
+
+/*--Contact*/
+.contact-container h1{
+                        margin-top: 20px;
+                       
+}
+
+.contact-page{
+
+                max-height: 1100px;
+                max-width: 90%;
+                background-color: rgb(187, 160, 229);
+                display: flex;
+                box-shadow:  rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+              ;
+                ;
+                margin: 60px;
+               
+}
+.contact-image{
+                flex-basis: 40%;
+}
+
+.contact-from{
+            flex-basis:60% ;
+}
+h4{
+                
+                text-align: center;
+                margin: 10px;
+                font-size: 30px;
+                text-transform: uppercase;
+                color: #398edf;
+}
+.hr{
+    
+}
+.contact-from input[type=text],
+.contact-from input[type=email],
+.contact-from input[type=text],
+.contact-from input[type=button]
+{
+    width: 90%;
+    margin:10px ;
+    margin-top: 30px;
+    padding:8px ;
+}
+
+.contact-from input[type=button]{
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(39, 187, 39);
+    color: white;
+}
+
+
+/*--Contact*/
+
+
+/*--footer*/
+footer{
+    height: 170px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(161, 84, 233);
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+.icon{
+   
+   text-align: center;
+ 
+   height: 20px;
+   margin:10px ;
+  
+   font-size: 25px;
+   padding: 0px;
+}
+.hr {
+    width: 40%;
+   margin-left: 350px;
+   padding: 10px;
+}
+.footer p{
+            text-align: center;
+            color: white;
+            margin: 10px;
+            font-size: larger;
+}
